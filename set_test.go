@@ -21,4 +21,6 @@ func TestSet(t *testing.T) {
 
 	t.Log(set1.IsSubset(set2)) // false
 
+	t.Log(set1.IsSubset(set1)) // true
+
 }
